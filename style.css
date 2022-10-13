@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: dodgerblue;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    font-family: narrow;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    padding-top: 150px;
+}
+
+.ctnr {
+    width: 50%;
+    padding: 50px;
+}
+
+
+h3,h2 {
+    font-size: 25px;
+    height: 50px;
+    font-family:cursive ;
+}
+
+.list {
+    list-style-type: circle;
+    padding-left: 30px;
+}
+
+.list-item {
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.btn-container {
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    width: 250px;
+}
+
+.btn {
+    width: 10%;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input {
+    width: 90%;
+    padding: 7px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transition: 0.2s background-color;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: none;
+    background-color: #fff;
+
+}
+
+
+
+.input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+@font-face {
+    font-family: narrow;
+    src: url(/fonts/PTSansNarrow-Regular.ttf);
+}
+
+
+
+
+/* todo container */
+
+
+.todo-container {
+    background: #fff;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-bottom: 50px;
+
+}
+
+.todo-title {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px 25px;
+    height: 70px;
+}
+
+
+.todo-list {
+    padding: 20px 45px;
+    list-style-type: circle;
+}
+
+.todo-item {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: rgb(0,0,0);
+}
+
+
+.new-todo-add {
+    margin-top: -20px;
+    padding-left: 50px;
+    width: 350px;
+}
+
+
+#todo-input {
+    border-bottom: 2px solid black;
+    color: #fff;
+    transition: 0.2s background-color;
+}
+
+
+#todo-input:focus {
+    background-color: black;
+}
+
+.add-todo-btn {
+    color: rgb(0,0,0);
+}
