@@ -21,9 +21,16 @@ body {
     padding-top: 150px;
 }
 
+
+
 .ctnr {
     width: 50%;
     padding: 50px;
+}
+
+
+.lists-container {
+    padding-left: 150px;
 }
 
 
