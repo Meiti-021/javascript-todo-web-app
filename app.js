@@ -127,6 +127,7 @@ function check(event){
 window.addEventListener('load', ()=>{
     let myData = JSON.parse(localStorage.getItem('localData'));
     console.log(myData);
+    todoSection.style.visibility = 'hidden'
     appData.listCounter = 0;
     appData.listCounter = myData.listCounter;
     let myStData = Object.entries(myData.lists);
